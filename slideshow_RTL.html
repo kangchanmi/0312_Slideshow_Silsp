@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>슬라이드쇼(RTL)</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="library/jquery-3.6.0.min.js"></script>    <!-- jQuery 라이브러리 먼저! -->
+    <script src="script/script.js"></script>    <!-- 자바스크립트 소스는 라이브러리 다음에! -->
+</head>
+<body>
+   <div id="wrap">
+       <h1>슬라이드쇼_RTL</h1>
+<!--onclick="moveLeft()" style="cursor: pointer;"-->
+
+       <div id="slideArea">    <!--이동 틀-->
+           <div id="slideShuttleFrame">    <!--움직이는 것-->
+               <a href="#"><img src="images/img_snow_wide01.jpg" alt="슬라이드이미지1" width="1000"></a>
+               <a href="#"><img src="images/img_mountains_wide02.jpg" alt="슬라이드이미지2" width="1000"></a>
+               <a href="#"><img src="images/img_lights_wide03.jpg" alt="슬라이드이미지3" width="1000"></a>
+           </div>
+           <!-- div#slideShuttleFrame
+                이미지 전체가 이동하는 틀,
+                부모요소보다 넓은 영역,
+                영역이 더 큼-->
+       </div> <!-- div#slideArea 부모요소 -->
+   </div>  <!-- div#wrap -->
+
+</body>
+</html>
